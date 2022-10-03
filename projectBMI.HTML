@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI CALCULATOR</title>
+    <style>
+        * {
+            background-color: antiquewhite;
+        }
+
+        h1 {
+            background-color: rgb(225, 183, 119);
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container table th {
+            font-size: 25px;
+            border: 1px solid black;
+            padding: 40px;
+            width: 130x;
+           
+        }
+         .container table td {
+            font-size: 25px;
+            border: 1px solid black;
+            padding: 30px;
+            width: 190px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>BMI CALCULATOR</h1>
+    </div>
+
+    <div class="calculator">
+        <label>WEIGHT(kg) :</label>
+        <input type="text" id="wt"><br>
+        <br><br>
+        <label>HEIGHT(ft) :</label>
+        <input type="text" id="wt"><br>
+        <br><br>
+
+        <button onclick="BMI">CALCULATE</button>
+
+        <button onclick="BMI">CLEAR ALL </button>
+
+        <br><br>
+        <label>YOUR BMI :</label>
+        <input type="text" id="bmi"><br>
+
+        <p id="bmires"></p>
+    </div>
+
+    <div class="container">
+        <table>
+            <tr>
+                <th>BMI</th>
+                <th>STATUS</th>
+            </tr>
+            <tr>
+                <td>0 =18.4 </td>
+                <td>Underweight😒</td>
+            </tr>
+            <tr>
+                <td>18.5 - 24.9</td>
+                <td>Normal😍</td>
+            </tr>
+            <tr>
+                <td>25.0 - 39.9</td>
+                <td>Overweight😮</td>
+            </tr>
+            <tr>
+                <td>>=40.0 </td>
+                <td>Obese😱 </td>
+            </tr>
+        </table>
+
+
+    </div>
+
+
+
+</body>
+<script>
+    
+</script>
+
+
+</html>
